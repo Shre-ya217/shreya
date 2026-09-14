@@ -1,0 +1,3 @@
+// Historically, this file was used to load polyfills for web components.
+// However, modern browsers now have native support for web components.
+// This file is kept for backwards compatibility.

@@ -1,0 +1,59 @@
+a {
+border-bottom: 1px solid #38a8aa;
+}
+
+.menu-highlight {
+    border-bottom: 3px solid #38a8aa;
+}
+
+.tertiary-arrow, .menu-highlight .icon-cross {
+  color:#38a8aa;
+  margin-top: -0.4rem;
+}
+
+.button:hover, .button-2:hover {
+    background-color: #38a8aa;
+    color: #fff;
+}
+
+.feature-box-inner {
+    background-color: #bde3e1 !important;
+}
+
+.feature-box-button {
+  background-color: #bde3e1;
+  border: 1px solid #38a8aa;
+   }
+
+
+.button {
+    border: 0.0625rem solid #38a8aa;
+}
+
+.in-page-button {
+    background-color: #e4f4f3;
+    color: #38a8aa;
+    border: none;
+}
+
+@media screen and (min-width: 1324px) {
+
+.hero-with-text-overlay:after {
+  opacity:0.95;
+  background-color:  #38a8aa;  
+}
+}
+
+.alert-button {
+  border:none;
+}
+
+
+
+.alert-button:hover{
+  background-color: #000;
+}
+
+
+
+
