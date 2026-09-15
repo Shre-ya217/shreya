@@ -474,7 +474,11 @@ http://www.tooplate.com/view/2098-health
     padding-top: 150px;
     padding-bottom: 150px;
   }
-
+.col-md-4, 
+.sidebar, 
+aside { 
+    display: none !important;
+}
   .profile img,
   .profile figcaption {
     display: inline-block;
@@ -495,7 +499,41 @@ http://www.tooplate.com/view/2098-health
     color: #858585;
     margin: 0;
   }
+/* Show the dropdown list on mouse hover */
+@media (min-width: 768px) {
+    .custom-dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* Prevents spacing gap between link and menu */
+    }
+}
 
+/* Optional styling to match your blue theme */
+.custom-dropdown .dropdown-menu {
+    background-color: #f8fafc;
+    color: #2b6cb0f;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    min-width: 250px;
+}
+
+.custom-dropdown .dropdown-menu > li > a {
+    padding: 12px 18px;
+    color: #f8fafc;
+    color: #2b6cb0;
+    border-bottom: 1px solid #d8e2e2;
+}
+
+/* First item with coral background */
+.custom-dropdown .dropdown-menu > li.highlight-item > a {
+    background-color: #f8fafc!important;
+    color: #2b6cb0 !important;
+}
+
+/* Hover background for remaining sub-items */
+.custom-dropdown .dropdown-menu > li > a:hover {
+    background-color: #2b6cb0;
+}
 
 
   /*---------------------------------------
